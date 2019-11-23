@@ -9,10 +9,10 @@ DATA_DIR = `ponzhi_scheme_detection/data/`
 
 TRANSACTIONS_DIR = `ponzhi_scheme_detection/transactions/`
 
-Steps:
-1. `cd ../ponzhi_scheme_detection`
+Steps to run the code:
+1. `cd ponzhi_scheme_detection`
 2. The `all_addresses.csv` and `ponzi_32.csv` are taken from `https://github.com/bitcoinponzi/BitcoinPonziTool/tree/master/CSV`
-3. Run `python merge_addresses` located in MAIN_DIR to generate `merged_addresses.csv` in the DATA_DIR
+3. Run `python merge_addresses.py` located in MAIN_DIR to generate `merged_addresses.csv` in the DATA_DIR
 4. cd `data_collection`
 5. Run `python save_transactions.py` to generate all the public addresses json files in the TRANSACTIONS_DIR
 6. Since 5. takes a lot of time, it is best to change `MAX_DEGREE` hyperparameter to dowload transaction details of addresses with less transactions first. I have downloaded all the addresses with transactions less than 25k.
