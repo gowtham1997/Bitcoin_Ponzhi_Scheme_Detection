@@ -4,7 +4,9 @@ The folder `ponzhi_scheme_detection` contains all the files to generate the data
 
 
 MAIN_DIR = `ponzhi_scheme_detection/`
+
 DATA_DIR = `ponzhi_scheme_detection/data/`
+
 TRANSACTIONS_DIR = `ponzhi_scheme_detection/transactions/`
 
 Steps:
