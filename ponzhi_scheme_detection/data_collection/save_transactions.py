@@ -22,8 +22,6 @@ def get_and_save_transaction(address):
     if address + '.json' in saved_jsons:
         # print('skipping')
         return 1
-    # print('getting ', address)
-    # 1MzNQ7HV8dQ6XQ52zBGYkCZkkWv2Pd3VG6
     url = 'https://blockchain.info/address/{}?format=json&offset='.format(
         address)
     offset = 0
