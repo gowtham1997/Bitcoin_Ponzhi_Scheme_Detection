@@ -10,6 +10,7 @@ DATA_DIR = `ponzhi_scheme_detection/data/`
 TRANSACTIONS_DIR = `ponzhi_scheme_detection/transactions/`
 
 Steps to run the code:
+
 0. `cd ponzhi_scheme_detection`
 1. create `TRANSACTIONS_DIR` if it doesn't exist with `mkdir transactions`. This folder will store all the transactions of the bitcoin addresses which are stored in the `DATA_DIR`
 2. The `all_addresses.csv` and `ponzi_32.csv` are taken from `https://github.com/bitcoinponzi/BitcoinPonziTool/tree/master/CSV`
