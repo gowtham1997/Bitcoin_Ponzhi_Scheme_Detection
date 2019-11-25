@@ -11,9 +11,6 @@ import swifter
 TRANSACTIONS_DIR = '../transactions/'
 DATA_DIR = '../data/'
 
-# 17feRqsSLouJxLUW5E7nsn7u3uRV3sudGc
-
-
 def read_json(address):
     with open(TRANSACTIONS_DIR + address + '.json') as f:
         data = json.load(f)
